@@ -1,0 +1,25 @@
+# Node modules
+node_modules/
+
+# 환경변수 파일
+.env
+.env.local
+.env.*.local
+
+# 로그 파일
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Mac OS 특수 파일
+.DS_Store
+
+# vscode 설정
+.vscode/
+
+# Output 파일 (선택)
+dist/
+build/
+
+# ChatGPT API 로그 백업 등
+*.log
