@@ -18,7 +18,7 @@ async function fetchTodayEntry() {
     filter: {
       property: '날짜',
       date: {
-        equals: '2025-04-24'
+        equals: today
       }
     }
   }, {
